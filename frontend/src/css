@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f7fafc;
+}
+.dark {
+  --bg-color: #1a202c;
+  --text-color: #ffffff;
+  --card-bg: #2d3748;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
